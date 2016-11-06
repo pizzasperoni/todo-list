@@ -1,0 +1,25 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "to do list using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizzasperoni/todo-list.git"
+  },
+  "author": "pizzasperoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pizzasperoni/todo-list/issues"
+  },
+  "homepage": "https://github.com/pizzasperoni/todo-list#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "pug": "^2.0.0-beta6"
+  }
+}
