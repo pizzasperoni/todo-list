@@ -13,6 +13,8 @@ app.use(session({
 	secret: "shhh it's a secret"
 }));
 
+
+
 app.use(express.static('public'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -43,5 +45,5 @@ app.use(function(err, req, res, next) {
 
 
 app.listen(8000, function () {
-  console.log("Esperando requests en el puerto 8000");
+  console.log("Waiting for requests at port 8000");
 });
