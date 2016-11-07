@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Express project
+    link(rel='stylesheet', href='/css/material.min.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700', type='text/css')
+    link(rel='stylesheet', href='/css/main.css')
+    link(rel='icon', sizes='16x16 32x32 48x48 64x64', href='/images/nodejs-512.png')
+
+  body
+    // Always shows a header, even in smaller screens.
+    .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+      header.mdl-layout__header
+        .mdl-layout__header-row
+          .page-logo
+            //img(src='/images/logo-light.svg')
+          // Title
+          span.mdl-layout-title To do list
+      main.mdl-layout__content
+        .page-content
+          | 
+      footer.mdl-mini-footer
+        .mdl-mini-footer__left-section
+          .mdl-logo 
+        .mdl-mini-footer__right-section
+          ul.mdl-mini-footer__link-list
+            li
+              img(src='/images/github.png')
+              a(href='https://github.com/pizzasperoni/todo-list') See in github
+            li
+              img(src='/images/twitter2.png')
+              a(href='https://twitter.com/PizzaSperoni') @pizzasperoni
+    script(src='/js/material.min.js')
+    script(src='/js/jquery2.min.js')
+    script(src='/js/main.js')

@@ -18,10 +18,16 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+/*
+var views = pug.create({
+    defaultLayout: 'principal',
+});
+
+*/
 app.set('view engine', 'pug');
 
 app.get('/', function (req, res) {
-	res.render('index', {title: 'Hey ', message: ' Hello there using node and jade for the view engine!'});
+	res.render('./layouts/principal');
 });
 
 
