@@ -1,5 +1,5 @@
 var express = require('express');
-var _ 		= require('loadsh');
+var _ 		= require('lodash');
 var uuid 	= require('uuid');
 var Task 	= require('./model');
 
@@ -69,7 +69,7 @@ module.get('/completed', [
 ]);
 
 module.get('/pendings', [
-	_.partial(setView, 'pendings');
+	_.partial(setView, 'pendings'),
 	findPendingTasks,
 	printTasksList
 ]);
