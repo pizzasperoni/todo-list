@@ -1,8 +1,8 @@
-var express = require('express');
-var pug = require('pug');
-var tasks = require('./modules/task/routes');
-var bodyParser = require('body-parser');
-var session = require('express-session');
+var express 	= require('express');
+var pug 		= require('pug');
+var tasks 		= require('./modules/task/routes');
+var bodyParser 	= require('body-parser');
+var session 	= require('express-session');
 
 var app = express();
 
