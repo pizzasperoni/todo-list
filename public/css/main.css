@@ -16,9 +16,11 @@
 }
 /* Icono */
 .page-logo {
-    position: absolute;
-    left: 14px;
-    line-height: 64px;
+    font-family: Helvetica;
+    font-size: 25px;
+    /*position: absolute;*/
+    padding-left: 10px;
+    line-height: 30px;
 }
 @media screen and (max-width: 1024px) {
     .page-logo {
@@ -27,7 +29,7 @@
 }
 
 .page-logo img {
-    height: 36px;
+    height: 40px;
 }
 
 /* Footer */
